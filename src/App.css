@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  /* width: 80%; */
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -35,4 +37,118 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.carousel-home {
+  
+  margin: 10px auto;
+  
+}
+
+
+
+.nav-container {
+  
+  font-size: 1rem;
+  padding: 25px 20px;
+  color: #B9B9B9;
+  transition: all 0.5s ease-in-out;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.footer-container {
+  
+
+}
+
+/* @font-face {
+  font-family: bebasneue;
+  url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+}  */
+
+
+.bottom {
+  height: 50px;
+}
+
+.footer-main {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #e8663c;
+  display: grid;
+  grid-template-columns: 0.1fr 1fr 1fr 1fr;
+  gap: 2.8rem;
+  color: #fff;
+  padding: 20px;
+  border-left: 10px solid #fff;
+  border-right: 10px solid #fff;
+  
+ 
+}
+
+.footer-main h2 {
+  padding: 15px;
+  font-size: 3rem;
+}
+.footer-main section {
+  text-align: left;
+}
+.footer-main p {
+  font-size: 1.2rem;
+}
+
+.footer-container {
+  margin-top: 50px;
+  background: #f2b19c;
+  width: 100%;
+}
+
+.show-projects {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.nav-bar {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.show-slides {
+  width: 80%;
+  margin: 0 auto;
+  border-left: 10px solid #fff;
+  border-right: 10px solid #fff;
+  
+}
+/* .slides-container {
+  background-color: rgb(233, 194, 194);
+} */
+
+.narrow-color {
+  background: #f2b19c;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  z-index: -3;
+}
+
+.contact-icon {
+  /* display: flex; */
+ 
+  display: grid;
+  gap: 10px;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  justify-content: center;
+  grid-auto-flow: column;
+
+
+}
+
+.clear {
+  height: 20px;
 }

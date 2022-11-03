@@ -10,12 +10,14 @@ export default function Games() {
     {
       name: 'Tic Tac Toe',
       url:'https://goodhua2018.github.io/Tic-Tac-Toe/',
-      img: tictactoe
+      img: tictactoe, 
+      src: 'https://github.com/goodhua2018/Tic-Tac-Toe'
     }, 
     {
       name: 'Rock Paper Scissor',
       url: 'https://goodhua2018.github.io/Rock-paper-Scissor/',
-      img: rockpaperscissor
+      img: rockpaperscissor,
+      src: 'https://github.com/goodhua2018/Rock-paper-Scissor'
     }
   ]
   return (
@@ -28,11 +30,20 @@ export default function Games() {
       <Card.Img variant="top" src={ game.img } height={'180px'}/>
       <Card.Body>
         <Card.Title>{game.name}</Card.Title>
-        <Card.Text>
-         
-        </Card.Text>
-        <Button  style={{ backgroundColor: "#E7663C"}}>
-          <a href={game.url} target="_blank"  style={{color: "#fff", textDecoration: "none"}}>Details</a></Button>
+        <section className="card-buttons">
+          <Button  style={{ backgroundColor: "#E7663C"}}>
+            <a href={game.url} target="_blank"  style={{color: "#fff", textDecoration: "none"}}>
+              Demo
+            </a>
+          </Button>
+          <Button  style={{ backgroundColor: "#E7663C"}}>
+            <a href={game.src} target="_blank"  style={{color: "#fff", textDecoration: "none"}}>
+              Code
+            </a>
+          </Button>
+        </section>
+        
+        
       </Card.Body>
     </Card>
         

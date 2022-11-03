@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import Games from '../components/Games'
 import Skills from '../components/Skills'
 import Clear from '../components/Clear'
+import Bottom from '../components/Bottom'
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
       < Games />
       < Footer />
       < Clear />
+      < Clear />
+      < Bottom />
       < Clear />
     </div>
   )

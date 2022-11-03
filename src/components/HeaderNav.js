@@ -16,7 +16,7 @@ function HeaderNav() {
               <Nav.Link href="#home" >About me</Nav.Link>
               <Nav.Link href="#features">My projects</Nav.Link>
               <Nav.Link href="#pricing">Contact</Nav.Link>  
-              <Nav.Link href="#pricing">Resume</Nav.Link>  
+              <Nav.Link href="https://www.canva.com/design/DAFOiWC3KAs/miagV8wI2C4KtG21FDXkoQ/view?utm_content=DAFOiWC3KAs&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Resume</Nav.Link>  
             </Nav>
           </Navbar.Collapse>
         </Container>

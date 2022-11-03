@@ -10,17 +10,21 @@ export default function Projects() {
     {
       name: 'Gym My Way',
       url:'https://gymmyway.herokuapp.com/',
-      img: gym2
+      img: gym2,
+      src: 'https://github.com/goodhua2018/gym-app'
     }, 
     {
       name: 'Baker Finder',
       url: 'https://baker-finder.herokuapp.com/',
-      img: baker
+      img: baker,
+      src: 'https://github.com/goodhua2018/Baker-Finder'
+
     }, 
     {
       name: 'Furniture Market',
       url: 'https://fathomless-fortress-15915.herokuapp.com/',
-      img: furniture
+      img: furniture,
+      src: 'https://github.com/goodhua2018/Furnitures-Market'
     }
   ]
   return (
@@ -33,11 +37,19 @@ export default function Projects() {
       <Card.Img variant="top" src={ project.img } height={'180px'}/>
       <Card.Body>
         <Card.Title>{project.name}</Card.Title>
-        <Card.Text>
-         
-        </Card.Text>
-        <Button  style={{ backgroundColor: "#E7663C"}}>
-          <a href={project.url} target="_blank"  style={{color: "#fff", textDecoration: "none"}}>Details</a></Button>
+        <section className="card-buttons">
+          <Button  style={{ backgroundColor: "#E7663C"}}>
+            <a href={project.url} target="_blank"  style={{color: "#fff", textDecoration: "none"}}>
+              Demo
+            </a>
+          </Button>
+          <Button  style={{ backgroundColor: "#E7663C"}}>
+            <a href={project.src} target="_blank"  style={{color: "#fff", textDecoration: "none"}}>
+              Code
+            </a>
+          </Button>
+        </section>
+   
       </Card.Body>
     </Card>
         

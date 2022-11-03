@@ -1,6 +1,5 @@
 import {  BsGithub } from 'react-icons/bs'
 import { AiOutlineMail, AiFillLinkedin } from 'react-icons/ai'
-import {  GrDocumentText } from 'react-icons/gr'
 import {  MdOutlineEmail } from 'react-icons/md'
 
 
@@ -12,14 +11,14 @@ export default function Contacts() {
     <div className="contact-icon">
       
       
-      < AiFillLinkedin size={36} color={'#1366C2'}/>
-      < BsGithub size={32} color={'black'}/>
-      < MdOutlineEmail size={36}/>
-      {/* < GrDocumentText size={30}/> */}
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+      <a href="https://www.linkedin.com/in/hualyu-hualyu" target="_blank">< AiFillLinkedin size={36} color={'#1366C2'}/> </a>
+      <a href="https://github.com/goodhua2018" target="_blank">< BsGithub size={32} color={'black'} /></a>
+      {/* < MdOutlineEmail size={36}/> */}
+
+      <div> </div>
+      <div> </div>
+      <div> </div>
+      <div> </div>
     </div>
   )
 }

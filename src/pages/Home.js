@@ -3,16 +3,22 @@ import HeaderNav from '../components/HeaderNav'
 import Slide from '../components/Slides'
 import Projects from '../components/Projects'
 import Footer from '../components/Footer'
-import Bottom from '../components/Bottom'
+
+import Games from '../components/Games'
+import Skills from '../components/Skills'
+import Clear from '../components/Clear'
 
 export default function Home() {
   return (
     <div>
       < HeaderNav />
       < Slide />
+      < Skills />
       < Projects />
+      < Games />
       < Footer />
-      < Bottom />
+      < Clear />
+      < Clear />
     </div>
   )
 }

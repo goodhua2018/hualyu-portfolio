@@ -9,25 +9,27 @@ export default function Footer() {
         <section>
 
         </section>
-      <section>
-        <h2>Previous</h2>
-        <p>* I was a Scientist</p>
-        <p>* I made plans for expreiments</p>
-        <p>* I </p>
-      </section>
+   
 
       <section>
-        <h2>Future</h2>
-        <p>I will be a Software Developer</p>
-        <p>I will make plans to solve problems</p>
+        <h3>About Me</h3>
+        < Clear />
+        {/* <p>I will be a Software Developer</p>
+        <p>I will make plans to solve problems</p> */}
+        <p>I am a Software Engineer and I am fasinated with problem-solving. I am lucky to find coding and programming as my new career based on my data management experience in the Health field and years' System Administration experience as well as my scientific background.  </p>
       </section>
     
       <section>
-        <h2>Contact </h2>
+        <h3>Contact </h3>
+        < Clear />
         <p>Email: hualyu.2018@gmail.com</p>
         <p>Mobile: 0411898634</p>
+        <p>Location: Adelaide, Australia</p>
         < Contacts />
         < Clear />
+      </section>
+      <section>
+
       </section>
       
       </div>

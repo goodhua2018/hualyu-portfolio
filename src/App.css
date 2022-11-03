@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .App {
   text-align: center;
   /* width: 80%; */
@@ -9,64 +11,11 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-.carousel-home {
-  
-  margin: 10px auto;
-  
-}
-
-
-
-.nav-container {
-  
-  font-size: 1rem;
-  padding: 25px 20px;
-  color: #B9B9B9;
-  transition: all 0.5s ease-in-out;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-
-.footer-container {
-  
-
-}
-
-/* @font-face {
-  font-family: bebasneue;
-  url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-}  */
 
 
 .bottom {
@@ -78,7 +27,7 @@
   margin: 0 auto;
   background-color: #e8663c;
   display: grid;
-  grid-template-columns: 0.1fr 1fr 1fr 1fr;
+  grid-template-columns: 0.05fr 3fr 2fr 0.05fr ;
   gap: 2.8rem;
   color: #fff;
   padding: 20px;
@@ -114,15 +63,16 @@
 }
 
 .nav-bar {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 
 .show-slides {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   border-left: 10px solid #fff;
   border-right: 10px solid #fff;
+  
   
 }
 /* .slides-container {
@@ -152,3 +102,24 @@
 .clear {
   height: 20px;
 }
+
+
+.nav-title {
+  font-family: Bebas Neue;
+  color:'#e8603c';
+  font-size:'2rem'
+}
+
+.nav-right-side {
+  font-family: Bebas Neue;
+}
+
+.skills {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+

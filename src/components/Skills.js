@@ -7,17 +7,9 @@ import { AiOutlineHtml5 } from 'react-icons/ai'
 
 
 
-
-
-
-
-
-
-
 export default function Skills() {
   return (
     <div className="skills">
-
       < FaReact size={40}/>
       < FaNodeJs size={40}/>
       < AiOutlineHtml5 size={40}/>
@@ -26,7 +18,6 @@ export default function Skills() {
       < SiJest size={40}/>
       < FaBootstrap size={40}/>
       < DiRubyRough size={40}/>
-
     </div>
   )
 }

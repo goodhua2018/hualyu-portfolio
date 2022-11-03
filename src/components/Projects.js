@@ -28,37 +28,42 @@ export default function Projects() {
     }
   ]
   return (
-    <div >
+    <div id="projects">
       <h2 style={{marginTop: '30px', marginBottom: '20px', color:'#e8603c', }}>RECENT PROJECTS</h2>
       <section className="show-projects">
         {
-        projects.map( (project, index) => 
-        <Card style={{ width: '18rem' }} key={index}>
-      <Card.Img variant="top" src={ project.img } height={'180px'}/>
-      <Card.Body>
-        <Card.Title>{project.name}</Card.Title>
-        <section className="card-buttons">
-          <Button  style={{ backgroundColor: "#E7663C"}}>
-            <a href={project.url} target="_blank"  style={{color: "#fff", textDecoration: "none"}}>
-              Demo
-            </a>
-          </Button>
-          <Button  style={{ backgroundColor: "#E7663C"}}>
-            <a href={project.src} target="_blank"  style={{color: "#fff", textDecoration: "none"}}>
-              Code
-            </a>
-          </Button>
-        </section>
-   
-      </Card.Body>
-    </Card>
-        
-        
-        
-        )   }
+          projects.map( (project, index) =>
+            <Card style={{ width: '18rem' }} key={index}>
+              <Card.Img variant="top" src={ project.img } height={'180px'}/>
+              <Card.Body>
+                <Card.Title>{project.name}</Card.Title>
+                <section className="card-buttons">
+                  <Button  style={{ backgroundColor: "#E7663C"}}>
+                    <a 
+                      href={project.url} 
+                      target="_blank" 
+                      rel="noreferrer" 
+                      style={{color: "#fff", textDecoration: "none"}}
+                    >
+                      Demo
+                    </a>
+                  </Button>
+                  <Button  style={{ backgroundColor: "#E7663C"}}>
+                    <a 
+                      href={project.src} 
+                      target="_blank" 
+                      rel="noreferrer" 
+                      style={{color: "#fff", textDecoration: "none"}}
+                    >
+                      Code
+                    </a>
+                  </Button>
+                </section>
+              </Card.Body>
+            </Card>
+          )
+        }
       </section>
-      
-   
-      </ div>
+    </ div>
   )}
     

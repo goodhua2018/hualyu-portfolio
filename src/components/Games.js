@@ -5,7 +5,6 @@ import { homeImages } from '../homeImages';
 
 export default function Games() {
   const { tictactoe, rockpaperscissor } = homeImages;
-
   const games = [
     {
       name: 'Tic Tac Toe',
@@ -54,9 +53,10 @@ export default function Games() {
                 </section>
               </Card.Body>
             </Card>
-        )}
+          )
+        }
       </section>
-    </ div>
+    </div>
   );
 }
     

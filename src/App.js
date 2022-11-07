@@ -1,9 +1,8 @@
-
 import './App.css';
 import Home from './pages/Home';
 
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       < Home />
@@ -11,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+

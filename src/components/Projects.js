@@ -1,11 +1,10 @@
-import React from 'react'
+import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { homeImages } from '../homeImages';
 
 export default function Projects() {
   const { baker, furniture, gym2 } = homeImages;
-
   const projects = [
     {
       name: 'Gym My Way',
@@ -27,6 +26,7 @@ export default function Projects() {
       src: 'https://github.com/goodhua2018/Furnitures-Market'
     }
   ]
+
   return (
     <div id="projects">
       <h2 style={{marginTop: '30px', marginBottom: '20px', color:'#e8603c', }}>RECENT PROJECTS</h2>
@@ -65,5 +65,6 @@ export default function Projects() {
         }
       </section>
     </ div>
-  )}
+  );
+}
     

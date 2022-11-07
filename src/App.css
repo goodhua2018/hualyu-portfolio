@@ -2,7 +2,6 @@
 
 .App {
   text-align: center;
-  /* width: 80%; */
   margin: 0 auto;
 }
 
@@ -15,8 +14,6 @@
 .App-link {
   color: #61dafb;
 }
-
-
 
 .bottom {
   height: 50px;
@@ -39,9 +36,11 @@
   padding: 15px;
   font-size: 3rem;
 }
+
 .footer-main section {
   text-align: left;
 }
+
 .footer-main p {
   font-size: 1.2rem;
 }
@@ -73,7 +72,6 @@
   border-right: 10px solid #fff; 
 }
 
-
 .narrow-color {
   background: #f2b19c;
   width: 100%;
@@ -83,21 +81,16 @@
 }
 
 .contact-icon {
-  /* display: flex; */
- 
   display: grid;
   gap: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center;
   grid-auto-flow: column;
-
-
 }
 
 .clear {
   height: 20px;
 }
-
 
 .nav-title {
   font-family: Bebas Neue;

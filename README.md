@@ -1,7 +1,7 @@
 
 # Portfolio
 
-##  :computer: [Click here](https://goodhua2018.github.io/hualyu-portfolio/) to see my portfolio!
+##  :computer: [Click here](https://hualyu_portfolio.surge.sh/) to see my portfolio!
 
 
 # Getting Started with Create React App

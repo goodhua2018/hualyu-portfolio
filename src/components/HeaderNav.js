@@ -5,9 +5,14 @@ import Navbar from 'react-bootstrap/Navbar';
 export default function HeaderNav() {
   return (
     <div className="nav-bar">
-      <Navbar >
-        <Container  bg="light" expand="lg">
-          <Navbar.Brand style={{color:'#e8603c', fontSize:'2rem'}} className="nav-title" href="/">Hua Lyu</Navbar.Brand>
+      <Navbar bg="light" expand="lg">
+        <Container  >
+          <Navbar.Brand 
+            style={{color:'#e8603c', fontSize:'2rem'}} className="nav-title" 
+            href="/"
+          >
+            Hua Lyu
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto nav-right-side" style={{fontSize: '1.3rem'}}>

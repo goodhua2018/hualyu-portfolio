@@ -7,11 +7,11 @@ export default function Footer() {
   return (
     <div className="footer-container">
       <div className="footer-main">
-        <section></section>
-        <section>
+        
+        <section className="about-me">
           <h3 id="aboutme">About Me</h3>
           < Clear />
-          <p>I am a Software Engineer and I am fasinated with problem-solving. I am lucky to find coding and programming as my new career based on my data management experience in the Health field and years' System Admin and Web content writing experience as well as my scientific background.  </p>
+          <p>I am a Software Engineer and I am fasinated with problem-solving. Based on my scientific background, System Admin and Web develop experience and application and system management experience, I am able to pick up any tech stack quickly and ready to learn new skills. </p>
         </section>
         <section>
           <h3 id="contact">Contact </h3>
@@ -22,7 +22,7 @@ export default function Footer() {
           < Contacts />
           < Clear />
         </section>
-        <section></section>
+      
       </div>
     </div>
   );

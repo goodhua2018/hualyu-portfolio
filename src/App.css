@@ -23,13 +23,17 @@
   width: 80%;
   margin: 0 auto;
   background-color: #e8663c;
-  display: grid;
-  grid-template-columns: 0.05fr 3fr 2fr 0.05fr ;
+  display: flex;
+  justify-content: flex-start;
   gap: 2.8rem;
+  flex-flow: row wrap;
   color: #fff;
-  padding: 20px;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   border-left: 10px solid #fff;
   border-right: 10px solid #fff;
+  
 }
 
 .footer-main h2 {
@@ -39,10 +43,26 @@
 
 .footer-main section {
   text-align: left;
+  display: inline-block;
+}
+.about-me {
+  width: 60%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer-main {
+    display: flex;
+    flex-flow: column;
+  }
+  .about-me {
+    width: 100%;
+  }
+
 }
 
 .footer-main p {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
 }
 
 .footer-container {

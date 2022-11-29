@@ -8,13 +8,13 @@ export default function Projects() {
   const projects = [
     {
       name: 'Gym My Way',
-      url:'https://gymmyway.herokuapp.com/',
+      url:'https://gymmyway.onrender.com/',
       img: gym2,
       src: 'https://github.com/goodhua2018/gym-app'
     }, 
     {
       name: 'Baker Finder',
-      url: 'https://baker-finder.herokuapp.com/',
+      url: 'https://baker-finder.onrender.com/',
       img: baker,
       src: 'https://github.com/goodhua2018/Baker-Finder'
 
